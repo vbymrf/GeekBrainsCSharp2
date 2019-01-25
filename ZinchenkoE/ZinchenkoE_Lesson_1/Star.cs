@@ -22,7 +22,7 @@ namespace ZinchenkoE_Lesson_1
           }
           public override void Update()
           {
-              if( Pos.X > Pos.X - Dir.X) Pos.X = Pos.X - Dir.X;
+              if( Pos.X > Pos.X - Dir.X) Pos.X = Pos.X - Dir.X;// Ось у меня Х направлена по другому (почему не знаю), поэтому пришлось поправить
               else Pos.X = Pos.X + Dir.X;
               if (Pos.X < 0) Pos.X = Game.Width + Size.Width;
           } 

@@ -78,16 +78,28 @@ namespace ZinchenkoE_Lesson_1
 
 
         /// <summary>
-        /// Создание обьектов (30 шт)
+        /// Создание обьектов 
         /// </summary>
       public static void Load()         
-      {         
-
-          _objs = new BaseObject[30];
-          for (int i = 0; i < _objs.Length / 2; i++)
-              _objs[i] = new BaseObject(new Point(600, i * 20), new Point(-i, -i), new Size(10, 10));
-          for (int i = _objs.Length / 2; i < _objs.Length; i++)
-              _objs[i] = new Star(new Point(600, i * 20), new Point(-i, 0), new Size(5, 5)); 
+      {
+          int j = 0;
+          _objs = new BaseObject[60];
+          for (int i = 0; i < _objs.Length / 3; i++)
+          {
+              j = i;
+              _objs[i] = new BaseObject(new Point(600, j * 20), new Point(-i, -i), new Size(10, 10));
+          }
+              for (int i = _objs.Length / 3; i < _objs.Length * 2 / 3; i++)
+              {
+                  j = i - _objs.Length / 3;
+                  _objs[i] = new Star(new Point(600, j * 30), new Point(-i, 0), new Size(5, 5));
+              }
+              for (int i = _objs.Length * 2 / 3; i < _objs.Length-1; i++)
+              {
+                  j = i - _objs.Length * 2 / 3;
+                  _objs[i] = new Line(new Point(600, j * 30), new Point(-i-j, 0), new Size(5, 5));
+              }
+              _objs[_objs.Length-1] = new MyImage();
       }
 
         /// <summary>
