@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZinchenkoE_Lesson3", "Zinch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZinchenkoE_Lesson4", "ZinchenkoE_Lesson4\ZinchenkoE_Lesson4.csproj", "{0DEEAF67-501E-4DE5-AC87-CED73CA77BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZinchenkoE_Lesson5", "ZinchenkoE_Lesson5\ZinchenkoE_Lesson5.csproj", "{5B56A1E8-BE76-4173-BB9C-80E1FD3E7ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZinchenkoE_Lesson6", "ZinchenkoE_Lesson6\ZinchenkoE_Lesson6.csproj", "{8A447733-025F-4780-B660-4B031417BF61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0DEEAF67-501E-4DE5-AC87-CED73CA77BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DEEAF67-501E-4DE5-AC87-CED73CA77BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DEEAF67-501E-4DE5-AC87-CED73CA77BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B56A1E8-BE76-4173-BB9C-80E1FD3E7ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B56A1E8-BE76-4173-BB9C-80E1FD3E7ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B56A1E8-BE76-4173-BB9C-80E1FD3E7ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B56A1E8-BE76-4173-BB9C-80E1FD3E7ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A447733-025F-4780-B660-4B031417BF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A447733-025F-4780-B660-4B031417BF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A447733-025F-4780-B660-4B031417BF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A447733-025F-4780-B660-4B031417BF61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
